@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rectangle Drawer</title>
+  <style>
+    body { font-family: sans-serif; padding: 1rem; }
+    #controls { margin-bottom: 1rem; }
+    #canvas { border: 1px solid #333; cursor: crosshair; }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <label>
+      Width:
+      <input type="number" id="widthInput" value="800" min="100" />
+    </label>
+    <label style="margin-left:1rem">
+      Height:
+      <input type="number" id="heightInput" value="600" min="100" />
+    </label>
+    <button id="resizeBtn">Set Size</button>
+    <button id="clearBtn" style="margin-left:1rem">Clear</button>
+  </div>
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>

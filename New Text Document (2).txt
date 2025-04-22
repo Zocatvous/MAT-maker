@@ -1,0 +1,14 @@
+{
+  "name": "rect-drawer",
+  "version": "1.0.0",
+  "description": "Simple room‑planner with draw/move rectangles",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
